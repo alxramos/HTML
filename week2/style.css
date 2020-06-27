@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+}
+
+p{
+    background-color: gray;
+    height: 160px;
+    width: 90%;
+    /* min-width: 269px; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px; 
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid black;
+    
+}
+
+.md1, .md2, .md3, .lg1, .lg2, .lg3{
+    background-color: white;
+    margin: auto;
+    min-width: 315px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.row{
+    width: 100%;
+}
+
+.sec1, .sec2, .sec3{
+    position: absolute;
+    text-align: center;
+    font-size: 125%;
+    top: 16px;
+    right: 5%;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.sec2{
+    background-color: orange;
+}
+
+.sec3{
+    background-color: lightseagreen;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .md1, .md2, .md3{
+       float: left;
+    }
+
+    .md1{
+        width: 50%;
+    }
+    
+    .md2{
+        width: 50%;
+    }
+
+    .md3{
+        width: 100%;      
+    }
+
+    .md3 > p{
+        width: 95%;
+    }
+    .md3 > .sec3{
+        right: 2.5%;
+    }
+}
+
+@media (min-width:992px){
+    .lg1, .lg2, .lg3{
+        float: left;
+        width: 33.3%;
+    }
+
+}
+
