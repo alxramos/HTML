@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -2362,7 +2361,6 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
-=======
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -4726,4 +4724,3 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
->>>>>>> 036589a622a6553a1ec12227752566544337d7f4
