@@ -1,0 +1,47 @@
+body {
+  font-size: 16px;
+  color: rgb(49, 49, 49);
+  background-color: #d8d5d0;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family:'abril fatface' ;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.contenido{
+  height: 1000px;
+  width: 90%;
+  background-color: sandybrown;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+#header-nav{
+  background-color: rgb(255, 136, 0);
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+  padding-left: 5px;
+  min-width: 240px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
